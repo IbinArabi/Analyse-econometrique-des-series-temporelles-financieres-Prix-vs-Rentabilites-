@@ -56,20 +56,20 @@ financières directement depuis Yahoo Finance sur la période allant de
 Traçons l’évolution des prix et des rentabilités logarithmiques avec
 leurs intervalles de confiance à 95%.
 
-<img src="README_files/figure-gfm/visualisation_prix-1.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visualisation_prix-2.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visualisation_prix-3.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visualisation_prix-4.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visualisation_prix-5.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visualisation_prix-6.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visualisation_prix-7.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visualisation_prix-8.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visualisation_prix-9.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visualisation_prix-10.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/visualisation_prix-1.png" alt="" style="display: block; margin: auto;" /><img src="figure/visualisation_prix-2.png" alt="" style="display: block; margin: auto;" /><img src="figure/visualisation_prix-3.png" alt="" style="display: block; margin: auto;" /><img src="figure/visualisation_prix-4.png" alt="" style="display: block; margin: auto;" /><img src="figure/visualisation_prix-5.png" alt="" style="display: block; margin: auto;" /><img src="figure/visualisation_prix-6.png" alt="" style="display: block; margin: auto;" /><img src="figure/visualisation_prix-7.png" alt="" style="display: block; margin: auto;" /><img src="figure/visualisation_prix-8.png" alt="" style="display: block; margin: auto;" /><img src="figure/visualisation_prix-9.png" alt="" style="display: block; margin: auto;" /><img src="figure/visualisation_prix-10.png" alt="" style="display: block; margin: auto;" />
 
 ## 1.3 Distribution des rentabilités
 
 Analyse de la forme des distributions (histogrammes, densités et
 boxplots).
 
-<img src="README_files/figure-gfm/distribution_rendements-1.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/distribution_rendements-2.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/distribution_rendements-3.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/distribution_rendements-4.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/distribution_rendements-5.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/distribution_rendements-6.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/distribution_rendements-7.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/distribution_rendements-8.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/distribution_rendements-9.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/distribution_rendements-10.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/distribution_rendements-1.png" alt="" style="display: block; margin: auto;" /><img src="figure/distribution_rendements-2.png" alt="" style="display: block; margin: auto;" /><img src="figure/distribution_rendements-3.png" alt="" style="display: block; margin: auto;" /><img src="figure/distribution_rendements-4.png" alt="" style="display: block; margin: auto;" /><img src="figure/distribution_rendements-5.png" alt="" style="display: block; margin: auto;" /><img src="figure/distribution_rendements-6.png" alt="" style="display: block; margin: auto;" /><img src="figure/distribution_rendements-7.png" alt="" style="display: block; margin: auto;" /><img src="figure/distribution_rendements-8.png" alt="" style="display: block; margin: auto;" /><img src="figure/distribution_rendements-9.png" alt="" style="display: block; margin: auto;" /><img src="figure/distribution_rendements-10.png" alt="" style="display: block; margin: auto;" />
 
 ## 1.4 Statistiques descriptives
 
     ##              Moyenne Ecart_type     Min    Max Skewness Kurtosis
     ## SP500         0.0005     0.0132 -0.1277 0.0909  -0.6459  14.6272
-    ## Secteur_Tech  0.0008     0.0176 -0.1487 0.1260  -0.2535   8.5179
+    ## Secteur_Tech  0.0008     0.0176 -0.1487 0.1260  -0.2535   8.5178
     ## AAPL          0.0009     0.0200 -0.1377 0.1426   0.0284   6.4367
     ## TLT          -0.0002     0.0108 -0.0690 0.0725   0.0892   4.2632
     ## VIX           0.0001     0.0794 -0.4424 0.5541   1.1810   6.8437
@@ -85,7 +85,7 @@ Les prix sont généralement non stationnaires, tandis que les
 rentabilités le sont. Les graphiques ACF/PACF illustrent cette
 différence. Nous calculons également l’ACVF et l’ACF manuellement.
 
-<img src="README_files/figure-gfm/stationnarite-1.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-2.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-3.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-4.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-5.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-6.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-7.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-8.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-9.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-10.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-11.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-12.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-13.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-14.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-15.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-16.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-17.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-18.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-19.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stationnarite-20.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/stationnarite-1.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-2.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-3.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-4.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-5.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-6.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-7.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-8.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-9.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-10.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-11.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-12.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-13.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-14.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-15.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-16.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-17.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-18.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-19.png" alt="" style="display: block; margin: auto;" /><img src="figure/stationnarite-20.png" alt="" style="display: block; margin: auto;" />
 
     ## 
     ## --- SP500 : ACVF / ACF (calcul manuel) ---
@@ -102,7 +102,7 @@ différence. Nous calculons également l’ACVF et l’ACF manuellement.
     ##    9   | 0.000029 |   0.1661
     ##   10   | -0.000011 |  -0.0608
 
-<img src="README_files/figure-gfm/stationnarite-21.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/stationnarite-21.png" alt="" style="display: block; margin: auto;" />
 
     ## 
     ## --- Secteur_Tech : ACVF / ACF (calcul manuel) ---
@@ -119,7 +119,7 @@ différence. Nous calculons également l’ACVF et l’ACF manuellement.
     ##    9   | 0.000043 |   0.1400
     ##   10   | -0.000019 |  -0.0622
 
-<img src="README_files/figure-gfm/stationnarite-22.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/stationnarite-22.png" alt="" style="display: block; margin: auto;" />
 
     ## 
     ## --- AAPL : ACVF / ACF (calcul manuel) ---
@@ -136,7 +136,7 @@ différence. Nous calculons également l’ACVF et l’ACF manuellement.
     ##    9   | 0.000040 |   0.1012
     ##   10   | -0.000021 |  -0.0517
 
-<img src="README_files/figure-gfm/stationnarite-23.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/stationnarite-23.png" alt="" style="display: block; margin: auto;" />
 
     ## 
     ## --- TLT : ACVF / ACF (calcul manuel) ---
@@ -153,7 +153,7 @@ différence. Nous calculons également l’ACVF et l’ACF manuellement.
     ##    9   | 0.000007 |   0.0646
     ##   10   | 0.000003 |   0.0273
 
-<img src="README_files/figure-gfm/stationnarite-24.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/stationnarite-24.png" alt="" style="display: block; margin: auto;" />
 
     ## 
     ## --- VIX : ACVF / ACF (calcul manuel) ---
@@ -170,7 +170,7 @@ différence. Nous calculons également l’ACVF et l’ACF manuellement.
     ##    9   | 0.000087 |   0.0139
     ##   10   | -0.000123 |  -0.0195
 
-<img src="README_files/figure-gfm/stationnarite-25.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/stationnarite-25.png" alt="" style="display: block; margin: auto;" />
 
     ## 
     ## --- ES_Future : ACVF / ACF (calcul manuel) ---
@@ -187,7 +187,7 @@ différence. Nous calculons également l’ACVF et l’ACF manuellement.
     ##    9   | 0.000020 |   0.1181
     ##   10   | -0.000006 |  -0.0350
 
-<img src="README_files/figure-gfm/stationnarite-26.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/stationnarite-26.png" alt="" style="display: block; margin: auto;" />
 
     ## 
     ## --- VFIAX : ACVF / ACF (calcul manuel) ---
@@ -204,7 +204,7 @@ différence. Nous calculons également l’ACVF et l’ACF manuellement.
     ##    9   | 0.000029 |   0.1656
     ##   10   | -0.000011 |  -0.0602
 
-<img src="README_files/figure-gfm/stationnarite-27.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/stationnarite-27.png" alt="" style="display: block; margin: auto;" />
 
     ## 
     ## --- QQQ : ACVF / ACF (calcul manuel) ---
@@ -221,7 +221,7 @@ différence. Nous calculons également l’ACVF et l’ACF manuellement.
     ##    9   | 0.000036 |   0.1417
     ##   10   | -0.000014 |  -0.0567
 
-<img src="README_files/figure-gfm/stationnarite-28.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/stationnarite-28.png" alt="" style="display: block; margin: auto;" />
 
     ## 
     ## --- EURUSD : ACVF / ACF (calcul manuel) ---
@@ -238,7 +238,7 @@ différence. Nous calculons également l’ACVF et l’ACF manuellement.
     ##    9   | 0.000000 |   0.0043
     ##   10   | -0.000000 |  -0.0094
 
-<img src="README_files/figure-gfm/stationnarite-29.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/stationnarite-29.png" alt="" style="display: block; margin: auto;" />
 
     ## 
     ## --- BTC : ACVF / ACF (calcul manuel) ---
@@ -255,7 +255,7 @@ différence. Nous calculons également l’ACVF et l’ACF manuellement.
     ##    9   | 0.000049 |   0.0469
     ##   10   | 0.000012 |   0.0112
 
-<img src="README_files/figure-gfm/stationnarite-30.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/stationnarite-30.png" alt="" style="display: block; margin: auto;" />
 
     ##                     Actif ADF_pval KPSS_pval Stationnaire
     ## SP500               SP500     0.01       0.1          Oui
@@ -278,7 +278,7 @@ avec les données réelles.
 
 ## 2.2 Visualisation des simulations
 
-<img src="README_files/figure-gfm/visu_simulation-1.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visu_simulation-2.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visu_simulation-3.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visu_simulation-4.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visu_simulation-5.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visu_simulation-6.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visu_simulation-7.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visu_simulation-8.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visu_simulation-9.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/visu_simulation-10.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/visu_simulation-1.png" alt="" style="display: block; margin: auto;" /><img src="figure/visu_simulation-2.png" alt="" style="display: block; margin: auto;" /><img src="figure/visu_simulation-3.png" alt="" style="display: block; margin: auto;" /><img src="figure/visu_simulation-4.png" alt="" style="display: block; margin: auto;" /><img src="figure/visu_simulation-5.png" alt="" style="display: block; margin: auto;" /><img src="figure/visu_simulation-6.png" alt="" style="display: block; margin: auto;" /><img src="figure/visu_simulation-7.png" alt="" style="display: block; margin: auto;" /><img src="figure/visu_simulation-8.png" alt="" style="display: block; margin: auto;" /><img src="figure/visu_simulation-9.png" alt="" style="display: block; margin: auto;" /><img src="figure/visu_simulation-10.png" alt="" style="display: block; margin: auto;" />
 
 ## 2.3 Statistiques et autocorrélations des simulations
 
@@ -294,13 +294,13 @@ avec les données réelles.
     ## ARMA21  0.0437   2.0725
     ## ARMA22 -0.0895   1.9303
 
-<img src="README_files/figure-gfm/stats_simulation-1.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-2.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-3.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-4.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-5.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-6.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-7.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-8.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-9.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-10.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-11.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-12.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-13.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-14.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-15.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-16.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-17.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-18.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-19.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/stats_simulation-20.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/stats_simulation-1.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-2.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-3.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-4.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-5.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-6.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-7.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-8.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-9.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-10.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-11.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-12.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-13.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-14.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-15.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-16.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-17.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-18.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-19.png" alt="" style="display: block; margin: auto;" /><img src="figure/stats_simulation-20.png" alt="" style="display: block; margin: auto;" />
 
 # 3. Comparaison : Données réelles vs Simulées
 
 ## 3.1 Synthèse visuelle (Prix vs Rentabilités)
 
-<img src="README_files/figure-gfm/synthese_comparaison-1.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/synthese_comparaison-2.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/synthese_comparaison-3.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/synthese_comparaison-4.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/synthese_comparaison-5.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/synthese_comparaison-6.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/synthese_comparaison-7.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/synthese_comparaison-8.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/synthese_comparaison-9.png" alt="" style="display: block; margin: auto;" /><img src="README_files/figure-gfm/synthese_comparaison-10.png" alt="" style="display: block; margin: auto;" />
+<img src="figure/synthese_comparaison-1.png" alt="" style="display: block; margin: auto;" /><img src="figure/synthese_comparaison-2.png" alt="" style="display: block; margin: auto;" /><img src="figure/synthese_comparaison-3.png" alt="" style="display: block; margin: auto;" /><img src="figure/synthese_comparaison-4.png" alt="" style="display: block; margin: auto;" /><img src="figure/synthese_comparaison-5.png" alt="" style="display: block; margin: auto;" /><img src="figure/synthese_comparaison-6.png" alt="" style="display: block; margin: auto;" /><img src="figure/synthese_comparaison-7.png" alt="" style="display: block; margin: auto;" /><img src="figure/synthese_comparaison-8.png" alt="" style="display: block; margin: auto;" /><img src="figure/synthese_comparaison-9.png" alt="" style="display: block; margin: auto;" /><img src="figure/synthese_comparaison-10.png" alt="" style="display: block; margin: auto;" />
 
 ## 3.2 Comparaison quantitative (Moments)
 
